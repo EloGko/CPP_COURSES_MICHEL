@@ -14,6 +14,6 @@ class Course{
         float moyenneTemps();
         std::string getPseudoMeilleur();
         void afficheScores();
-        void ajouteScore(std::string joueur);
+        void ajouteScore();
         Course(std::string identifiant, std::string joueurUn, std::string joueurDeux, std::string joueurTrois);
 };
